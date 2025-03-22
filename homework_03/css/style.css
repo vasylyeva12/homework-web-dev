@@ -1,0 +1,38 @@
+@import url('reset.css');
+
+#culture {
+    color: darkgreen;
+}
+
+.link a {
+    color: lightskyblue;
+}
+
+[class*='_title'] {
+    color: rgb(12, 241, 165);
+}
+
+.location_container * {
+    color: darkmagenta;
+}
+
+.history_container {
+    color: cadetblue;
+}
+
+
+.history_content span {
+    color: chocolate;
+}
+
+.modern_content li {
+    color: brown;
+}
+
+.inference_content>p {
+    color: blueviolet;
+}
+
+.inference_content>p+p {
+    color: red;
+}
