@@ -1,0 +1,188 @@
+@import url('reset.css');
+
+
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+  
+}
+
+.header-container {
+    margin: 50px;
+}
+
+/* -----------------Ecobazar----------- */
+.descriptions-wrapper {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.links {
+    color: #808080;
+    border-bottom: 1px dashed;
+}
+
+.container {
+    max-width: 648px;
+    margin: 25px auto;
+    color: #808080;
+    font-size: 14px;
+}
+
+.description-text {
+    line-height: 2.1;
+}
+
+.descriptions-list {
+    margin: 20px 0;
+
+}
+
+.descriptions-item {
+    padding-left: 28px;
+    background-image: url('../img/Check.png');
+    min-height: 20px;
+    background-repeat: no-repeat;
+    margin-bottom: 14px;
+    line-height: 1.9;
+}
+
+/* ============ HYDRA ================= */
+
+.hydra {
+    font-family: 'Montserrat', sans-serif;    
+    background: #302C42;
+    color: #FFF;
+}
+.hydra-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+
+/* ==============contact ============== */
+
+
+.contact-page {
+    margin-bottom: 90px;
+    padding: 0 84px;
+}
+
+.contact-items {
+    border-radius: 90px;
+    background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+    padding: 25px 0;
+    font-size: 0;
+}
+.contact-item {
+    display: inline-block;
+    width: 33.333%;
+    padding: 27px 30px;
+    vertical-align: middle;
+}
+.location {
+    background: url(../img/contact/location.svg) 0 0 / 70px no-repeat;
+    min-height: 70px;
+    padding: 10px 0 0 70px;
+}
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.text {
+    font-size: 14px;
+}
+.phone {
+    background: url(../img/contact/phone-call.svg) 0 0 / 59px no-repeat;
+    min-height: 59px;
+    padding: 10px 0 0 88px;
+}
+.item-border {
+    border-left: 1px solid rgba(192, 183, 232, 0.33);;
+    border-right: 1px solid rgba(192, 183, 232, 0.33);;
+
+}
+.email {
+    background: url(../img/contact/mail.svg) 0 0 / 65px no-repeat;
+    min-height: 65px;
+    padding: 10px 0 0 89px;
+}
+
+/* ============== ABOUT =============== */
+
+.about-page {
+background:  url(../img/about/Vector\ 7.png) 0 -3px no-repeat, 
+url(../img/about/Vector\ 8.png) 0 265px no-repeat;
+padding-bottom: 6%;
+}
+
+.about-container {
+   padding: 0 84px;
+   
+}
+
+.about-image  {
+    display: inline-block;
+    max-width: 524px; 
+ 
+    margin-right: 108px;
+    
+    border-radius: 240px 100px;
+    background: #A3A3A3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about-content {
+    display: inline-block;
+    width: 630px;
+    padding-top: 47px;
+    vertical-align: middle;
+}
+
+
+.about-content h2 {  
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-content h3 {
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 42px;
+}
+
+.about-text {
+    font-size: 16px;
+    font-weight: 400;  
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+.about-link {
+    color: #343045;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    /* width: 214px; */
+   
+    margin: 0 auto;
+    text-align: center;
+    padding: 17px 47px 16px 39px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
